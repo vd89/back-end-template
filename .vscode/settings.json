@@ -1,0 +1,13 @@
+{
+ "cSpell.words": ["daxmarktine", "Marktine"],
+ "editor.defaultFormatter": "esbenp.prettier-vscode",
+ "editor.formatOnSave": true,
+ "[javascript]": {
+  "editor.formatOnSave": true,
+  "editor.defaultFormatter": "dbaeumer.vscode-eslint"
+ },
+ "prettier.quoteProps": "preserve",
+ "[xml]": {
+  "editor.defaultFormatter": "DotJoshJohnson.xml"
+ }
+}
