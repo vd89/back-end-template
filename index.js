@@ -1,6 +1,6 @@
-import debug from 'debug';
 import app from './src/app.js';
 import appConfig from './src/appConfig.js';
+import debug from 'debug';
 
 const indexDebug = debug('app:index ->');
 const { port } = appConfig;
