@@ -1,6 +1,7 @@
-import { generateRandomString } from './encryptionHelper.js';
-import appConfig from '../appConfig.js';
 import _ from 'lodash';
+
+import appConfig from '../appConfig.js';
+import { generateRandomString } from './encryptionHelper.js';
 
 const { sessionSecret } = appConfig;
 
@@ -16,7 +17,7 @@ export const sessionConfig = {
 };
 
 export const sessionClear = (req, res, next) => {
-  if (req.cookies.back-end-temp && !req.session.user) {
+  if (req.cookies['back-end-temp'] && !req.session.user) {
     res.clearCookie('back-end-temp');
   }
   next();

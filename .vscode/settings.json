@@ -6,8 +6,5 @@
   "editor.formatOnSave": true,
   "editor.defaultFormatter": "dbaeumer.vscode-eslint"
  },
- "prettier.quoteProps": "preserve",
- "[xml]": {
-  "editor.defaultFormatter": "DotJoshJohnson.xml"
- }
+ "prettier.quoteProps": "preserve"
 }

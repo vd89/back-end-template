@@ -38,7 +38,7 @@
  },
  "scripts": {
   "dev": "nodemon",
-  "start": "NODE_ENV=prod DEBUG=app:* node .",
+  "start": "NODE_ENV=production DEBUG=app:* node .",
   "remove": "rm -rf dist node_modules"
  }
 }
