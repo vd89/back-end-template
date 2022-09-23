@@ -12,4 +12,5 @@ export default {
   jwtSecret: config.get('JWT_SECRET') || process.env.JWT_SECRET || '',
   whiteList: config.get('CORS_WHITELIST') || process.env.CORS_WHITELIST || [],
   environment: config.get('ENVIRONMENT') || process.env.NODE_ENV || '',
+  mongoUrl: config.get('MONGO_URL') || process.env.MONGO_URL || '',
 };
