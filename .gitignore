@@ -49,5 +49,7 @@ Thumbs.db
 *.wmv
 
 # config folder
-config/
+config/default.json
+config/production.json
+config/test.json
 

@@ -8,7 +8,6 @@ const { port } = appConfig;
 
 (async ()=>{
   indexDebug('Starting the server');
-  await dbController();
   app.listen(port, () => {
     try {
       indexDebug(`Server is running on the http://localhost:${port}`);
@@ -16,4 +15,5 @@ const { port } = appConfig;
       indexDebug(err.message);
     }
   });
+  await dbController();
 })();
